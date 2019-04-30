@@ -1,1 +1,1 @@
-Scripts to help import external deployments into DataRobot's monitoring framework.
+Scripts to help import and interact with external deployments in DataRobot's monitoring framework.
