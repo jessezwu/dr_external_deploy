@@ -14,6 +14,8 @@ DEPLOYMENT = 'the id of your deployment'
 headers = {'Authorization': 'Token %s' % API_TOKEN}
 
 # Query parameters for drift, start is inclusive, end is exclusive, set timestamps accordingly
+# See the API documentation on the DataRobot Support Portal for available metrics
+# e.g. 'psi', 'kl_divergence', 'dissimilarity', 'hellinger'
 params = {
     'start': '2019-03-01',
     'end': '2019-04-01',
